@@ -1,2 +1,5 @@
-print(14 % 10)
-print(26 % 10)
+import sys
+
+a, b = map(int, sys.stdin.readline().split())
+
+print(a<<b)

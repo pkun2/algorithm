@@ -8,4 +8,4 @@ for a in alphabet_list:
             if i == j:
                 time += alphabet_list.index(a) + 3;
                 
-print(time);
+print(time+1);

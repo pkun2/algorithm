@@ -1,4 +1,4 @@
-alphabet_list = ["ABC", "DEF", "GHI", "JKL", "MNO", "PQRS", "WXYZ"];
+alphabet_list = ["ABC", "DEF", "GHI", "JKL", "MNO", "PQRS", "TUV", "WXYZ"];
 time = 0;
 word = input();
 
@@ -8,4 +8,4 @@ for a in alphabet_list:
             if i == j:
                 time += alphabet_list.index(a) + 3;
                 
-print(time+1);
+print(time);

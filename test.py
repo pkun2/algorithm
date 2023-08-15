@@ -1,6 +1,9 @@
-import random
-
-rand = random.randint(0, 2);
-arr = ["javascript", "react", "wetube"];
-
-print("오늘은",arr[rand]);
+import urllib.request
+import urllib.error
+import time
+ 
+date = urllib.request.urlopen('http://www.google.com').headers['Date']
+print(date)
+  
+time = int(time.mktime(time.strptime(date, '%a, %d %b %Y %H:%M:%S %Z')))
+print(time)
